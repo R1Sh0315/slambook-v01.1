@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Gloria+Hallelujah&family=Itim&family=Kalam:wght@300;400;700&family=Patrick+Hand&family=Shadows+Into+Light&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.sb-view {
+  border: 1px solid black;
+  position: relative;
+
+  width: 768px;
+}
+
+.sb-dashboard {
+  border: 1px solid black;
+}
+
+.sb-client-name {
+  font-size: 30pt;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+
+.sb-vertical-dots {
+  font-size: 12pt;
+  color: #bbb8b8;
+  margin-top: 16px;
+}
+
+.sb-client-fonts-name-list-contianer {
+  position: absolute;
+  width: 100%;
+}
+
+.sb-client-fonts-name-list {
+  font-family: "Patrick Hand", cursive;
+  font-size: 12pt;
+  font-weight: bold;
+  position: relative;
+  width: 150px;
+  margin-left: 65%;
+  background-color: #fff;
+}
+
+.sb-client-body-content {
+  border: 1px solid black;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sb-client-profile-img-contianer {
+  width: 150px;
+  height: 147px;
+  margin: 5px 20px;
+  padding: 5px;
+}
+
+.sb-client-profile-img,
+.sb-user-img-alt {
+  width: 144px;
+  height: 168px;
+  padding: 5px;
+}
+
+.sb-client-profile-img:hover {
+  box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
+}
+
+.sb-user-image-prompt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.sb-prompt-close-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.ss-frame-style-DD {
+  border: 1px solid black;
+}
+
+.ss-frame-style-DD-container {
+}
+.sb-prompt-image-container {
+  margin: 15px 44px;
+  display: flex;
+}
+
+.sb-image-preview,
+.sb-image-options {
+  width: 100%;
+}
+
+.sb-image-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.sb-prompt-profile-img {
+  width: 144px;
+  height: 147px;
+  margin: 5px 10px;
+  padding: 15px;
+}
+
+.sb-input-file-upload-btn,
+.sb-not-image-text {
+  font-family: "Patrick Hand", cursive;
+  font-size: 15pt;
+}
+
+.sb-not-image-text {
+  color: red;
+  display: flex;
+}
+
+.sb-image-remove-btn {
+  border: none;
+  background-color: transparent;
+  margin: 8px 0;
+  font-family: "Patrick Hand", cursive;
+  font-size: 15pt;
+}
+
+.sb-set-frame-style-container {
+  display: flex;
+  margin: 8px 0;
+  font-family: "Patrick Hand", cursive;
+  font-size: 15pt;
+}
+
+/* frame style */
+.lined {
+  border: solid 2px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+.dotted {
+  border: dotted 2px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+.dashed {
+  border: dashed 2px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+.double {
+  border: double 5px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+.bold-lined {
+  border: solid 3px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+.bold-dotted {
+  border: dotted 3px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+.bold-dashed {
+  border: dashed 3px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+.bold-double {
+  border: double 8px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+}
+
+.sb-client-self-discription {
+  margin: 16px 20px;
+  padding: 5px;
+}
+
+.sb-username-txt,
+.sb-nickname-txt,
+.sb-birth-date-txt,
+.sb-birth-place-txt {
+  text-align: left;
+  font-family: "Itim", cursive;
+  font-size: 14pt;
+}
+
+.sb-username,
+.sb-nickname,
+.sb-birth-date,
+.sb-birth-place {
+  text-align: left;
+  padding: 0 5px;
+  font-family: "Itim", cursive;
+  font-size: 20pt;
+}
+
+.sb-self-disc-table {
+  padding: 15px;
+  border: solid 4px #41403e;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  background-color: #ffffb3;
+  box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
+}
+
+.sb-client-data-container {
+  border: 1px solid red;
+}
+
+@media only screen and (max-width: 767px) {
+  .sb-client-body-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sb-client-profile-img-contianer {
+    width: auto;
+    height: 184px;
+  }
+  .sb-image-options {
+    margin: 14px 0;
+  }
+  .sb-image-options {
+    width: auto;
+  }
+  .sb-prompt-image-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sb-client-self-discription {
+    display: flex;
+    justify-content: center;
+  }
+  .sb-self-disc-table {
+    padding: 15px 36px;
+  }
+}
